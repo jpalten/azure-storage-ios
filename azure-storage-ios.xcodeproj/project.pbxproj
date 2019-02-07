@@ -660,10 +660,14 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchsimulator watchos macosx appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(inherited) $(SDKROOT)/usr/include/libxml2";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -722,16 +726,21 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchsimulator watchos macosx appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(inherited) $(SDKROOT)/usr/include/libxml2";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;			};
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
 			name = Release;
 		};
 		60FD7B6F220C847900C2BA84 /* Debug */ = {

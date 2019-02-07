@@ -5,7 +5,7 @@
 //  Created by Jelle Alten on 07/02/2019.
 //  Copyright © 2019 framework. All rights reserved.
 //
-#import import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for azure_storage_ios.
 FOUNDATION_EXPORT double azure_storage_iosVersionNumber;
