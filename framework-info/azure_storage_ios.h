@@ -22,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char azure_storage_iosVersionString[];
 #include "AZSEnums.h"
 #include "AZSCloudBlockBlob.h"
 
+#import <libxml/xmlwriter.h>
