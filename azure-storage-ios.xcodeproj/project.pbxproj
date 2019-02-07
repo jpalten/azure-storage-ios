@@ -118,7 +118,6 @@
 		60FD7C4F220C859500C2BA84 /* AZSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BE2220C859400C2BA84 /* AZSConstants.m */; };
 		60FD7C50220C859500C2BA84 /* AZSEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BE3220C859400C2BA84 /* AZSEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C53220C85F800C2BA84 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FD7C52220C85F700C2BA84 /* libxml2.2.tbd */; };
-		60FD7C57220C8B7400C2BA84 /* Exposing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7C56220C8B7400C2BA84 /* Exposing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -235,7 +234,6 @@
 		60FD7BE2220C859400C2BA84 /* AZSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSConstants.m; sourceTree = "<group>"; };
 		60FD7BE3220C859400C2BA84 /* AZSEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSEnums.h; sourceTree = "<group>"; };
 		60FD7C52220C85F700C2BA84 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		60FD7C56220C8B7400C2BA84 /* Exposing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exposing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,7 +279,6 @@
 			children = (
 				60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */,
 				60FD7B72220C84DE00C2BA84 /* Info.plist */,
-				60FD7C56220C8B7400C2BA84 /* Exposing.swift */,
 			);
 			path = "framework-info";
 			sourceTree = SOURCE_ROOT;
@@ -575,7 +572,6 @@
 				60FD7C16220C859500C2BA84 /* AZSRequestResult.m in Sources */,
 				60FD7C2D220C859500C2BA84 /* AZSContinuationToken.m in Sources */,
 				60FD7C20220C859500C2BA84 /* AZSCloudAppendBlob.m in Sources */,
-				60FD7C57220C8B7400C2BA84 /* Exposing.swift in Sources */,
 				60FD7C0D220C859500C2BA84 /* AZSStorageUri.m in Sources */,
 				60FD7BF6220C859400C2BA84 /* AZSBlobResponseParser.m in Sources */,
 				60FD7C2F220C859500C2BA84 /* AZSSharedAccessSignatureHelper.m in Sources */,
