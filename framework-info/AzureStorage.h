@@ -15,10 +15,10 @@ FOUNDATION_EXPORT const unsigned char azure_storage_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <azure_storage_ios/PublicHeader.h>
 
-#import <azure_storage_ios/AZSCloudStorageAccount.h>
-#import <azure_storage_ios/AZSCloudBlobClient.h>
-#import <azure_storage_ios/AZSCloudBlobContainer.h>
-#import <azure_storage_ios/AZSEnums.h>
-#import <azure_storage_ios/AZSCloudBlockBlob.h>
+#import <AzureStorage/AZSCloudStorageAccount.h>
+#import <AzureStorage/AZSCloudBlobClient.h>
+#import <AzureStorage/AZSCloudBlobContainer.h>
+#import <AzureStorage/AZSEnums.h>
+#import <AzureStorage/AZSCloudBlockBlob.h>
 
 #import <libxml/xmlwriter.h>
