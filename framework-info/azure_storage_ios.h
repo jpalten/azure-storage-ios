@@ -5,8 +5,7 @@
 //  Created by Jelle Alten on 07/02/2019.
 //  Copyright © 2019 framework. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
+#import import <Foundation/Foundation.h>
 
 //! Project version number for azure_storage_ios.
 FOUNDATION_EXPORT double azure_storage_iosVersionNumber;
@@ -16,10 +15,10 @@ FOUNDATION_EXPORT const unsigned char azure_storage_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <azure_storage_ios/PublicHeader.h>
 
-#include "AZSCloudStorageAccount.h"
-#include "AZSCloudBlobClient.h"
-#include "AZSCloudBlobContainer.h"
-#include "AZSEnums.h"
-#include "AZSCloudBlockBlob.h"
+#import <azure_storage_ios/AZSCloudStorageAccount.h>
+#import <azure_storage_ios/AZSCloudBlobClient.h>
+#import <azure_storage_ios/AZSCloudBlobContainer.h>
+#import <azure_storage_ios/AZSEnums.h>
+#import <azure_storage_ios/AZSCloudBlockBlob.h>
 
 #import <libxml/xmlwriter.h>
