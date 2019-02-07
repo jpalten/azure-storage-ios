@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60FD7B75220C84FE00C2BA84 /* azure_storage_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */; };
+		60FD7B75220C84FE00C2BA84 /* azure_storage_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7BE4220C859400C2BA84 /* AZSBlobRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B77220C859400C2BA84 /* AZSBlobRequestFactory.h */; };
 		60FD7BE5220C859400C2BA84 /* AZSCloudBlockBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B78220C859400C2BA84 /* AZSCloudBlockBlob.m */; };
 		60FD7BE6220C859400C2BA84 /* AZSStorageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B79220C859400C2BA84 /* AZSStorageCommand.m */; };
