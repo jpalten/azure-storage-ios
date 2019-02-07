@@ -38,7 +38,7 @@
 		60FD7BFF220C859500C2BA84 /* AZSBlobRequestXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B92220C859400C2BA84 /* AZSBlobRequestXML.h */; };
 		60FD7C00220C859500C2BA84 /* AZSResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B93220C859400C2BA84 /* AZSResponseParser.m */; };
 		60FD7C01220C859500C2BA84 /* AZSRetryContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B94220C859400C2BA84 /* AZSRetryContext.h */; };
-		60FD7C02220C859500C2BA84 /* AZSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B95220C859400C2BA84 /* AZSMacros.h */; };
+		60FD7C02220C859500C2BA84 /* AZSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B95220C859400C2BA84 /* AZSMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C03220C859500C2BA84 /* AZSCorsRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B96220C859400C2BA84 /* AZSCorsRule.h */; };
 		60FD7C04220C859500C2BA84 /* AZSMetricsProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B97220C859400C2BA84 /* AZSMetricsProperties.h */; };
 		60FD7C05220C859500C2BA84 /* AZSRetryPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B98220C859400C2BA84 /* AZSRetryPolicy.h */; };
@@ -46,11 +46,11 @@
 		60FD7C07220C859500C2BA84 /* AZSBlobProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B9A220C859400C2BA84 /* AZSBlobProperties.m */; };
 		60FD7C08220C859500C2BA84 /* AZSSharedAccessHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B9B220C859400C2BA84 /* AZSSharedAccessHeaders.m */; };
 		60FD7C09220C859500C2BA84 /* AZSCloudStorageAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B9C220C859400C2BA84 /* AZSCloudStorageAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60FD7C0A220C859500C2BA84 /* AZSCloudBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B9D220C859400C2BA84 /* AZSCloudBlob.h */; };
+		60FD7C0A220C859500C2BA84 /* AZSCloudBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B9D220C859400C2BA84 /* AZSCloudBlob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C0B220C859500C2BA84 /* AZSSharedAccessPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B9E220C859400C2BA84 /* AZSSharedAccessPolicy.m */; };
 		60FD7C0C220C859500C2BA84 /* AZSServiceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B9F220C859400C2BA84 /* AZSServiceProperties.h */; };
 		60FD7C0D220C859500C2BA84 /* AZSStorageUri.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BA0220C859400C2BA84 /* AZSStorageUri.m */; };
-		60FD7C0E220C859500C2BA84 /* AZSULLRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BA1220C859400C2BA84 /* AZSULLRange.h */; };
+		60FD7C0E220C859500C2BA84 /* AZSULLRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BA1220C859400C2BA84 /* AZSULLRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C0F220C859500C2BA84 /* AZSBlobContainerProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BA2220C859400C2BA84 /* AZSBlobContainerProperties.h */; };
 		60FD7C10220C859500C2BA84 /* AZSBlobOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BA3220C859400C2BA84 /* AZSBlobOutputStream.m */; };
 		60FD7C11220C859500C2BA84 /* AZSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BA4220C859400C2BA84 /* AZSConstants.h */; };
@@ -64,7 +64,7 @@
 		60FD7C19220C859500C2BA84 /* AZSSharedKeyBlobAuthenticationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BAC220C859400C2BA84 /* AZSSharedKeyBlobAuthenticationHandler.m */; };
 		60FD7C1A220C859500C2BA84 /* AZSRequestOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BAD220C859400C2BA84 /* AZSRequestOptions.m */; };
 		60FD7C1B220C859500C2BA84 /* AZSCopyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BAE220C859400C2BA84 /* AZSCopyState.m */; };
-		60FD7C1C220C859500C2BA84 /* AZSCloudClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BAF220C859400C2BA84 /* AZSCloudClient.h */; };
+		60FD7C1C220C859500C2BA84 /* AZSCloudClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BAF220C859400C2BA84 /* AZSCloudClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C1D220C859500C2BA84 /* AZSOperationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BB0220C859400C2BA84 /* AZSOperationContext.m */; };
 		60FD7C1E220C859500C2BA84 /* AZSUriQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BB1220C859400C2BA84 /* AZSUriQueryBuilder.m */; };
 		60FD7C1F220C859500C2BA84 /* AZSStorageCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BB2220C859400C2BA84 /* AZSStorageCredentials.h */; };
@@ -118,6 +118,7 @@
 		60FD7C4F220C859500C2BA84 /* AZSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7BE2220C859400C2BA84 /* AZSConstants.m */; };
 		60FD7C50220C859500C2BA84 /* AZSEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7BE3220C859400C2BA84 /* AZSEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7C53220C85F800C2BA84 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FD7C52220C85F700C2BA84 /* libxml2.2.tbd */; };
+		60FD7C57220C8B7400C2BA84 /* Exposing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7C56220C8B7400C2BA84 /* Exposing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +235,7 @@
 		60FD7BE2220C859400C2BA84 /* AZSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSConstants.m; sourceTree = "<group>"; };
 		60FD7BE3220C859400C2BA84 /* AZSEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSEnums.h; sourceTree = "<group>"; };
 		60FD7C52220C85F700C2BA84 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		60FD7C56220C8B7400C2BA84 /* Exposing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exposing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +281,7 @@
 			children = (
 				60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */,
 				60FD7B72220C84DE00C2BA84 /* Info.plist */,
+				60FD7C56220C8B7400C2BA84 /* Exposing.swift */,
 			);
 			path = "framework-info";
 			sourceTree = SOURCE_ROOT;
@@ -508,6 +511,7 @@
 				TargetAttributes = {
 					60FD7B65220C847900C2BA84 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -571,6 +575,7 @@
 				60FD7C16220C859500C2BA84 /* AZSRequestResult.m in Sources */,
 				60FD7C2D220C859500C2BA84 /* AZSContinuationToken.m in Sources */,
 				60FD7C20220C859500C2BA84 /* AZSCloudAppendBlob.m in Sources */,
+				60FD7C57220C8B7400C2BA84 /* Exposing.swift in Sources */,
 				60FD7C0D220C859500C2BA84 /* AZSStorageUri.m in Sources */,
 				60FD7BF6220C859400C2BA84 /* AZSBlobResponseParser.m in Sources */,
 				60FD7C2F220C859500C2BA84 /* AZSSharedAccessSignatureHelper.m in Sources */,
@@ -722,6 +727,7 @@
 		60FD7B6F220C847900C2BA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -739,6 +745,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "framwork.azure-storage-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -750,6 +758,7 @@
 		60FD7B70220C847900C2BA84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -767,6 +776,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "framwork.azure-storage-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
