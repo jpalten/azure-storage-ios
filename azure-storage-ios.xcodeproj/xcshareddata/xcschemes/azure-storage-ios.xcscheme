@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "60FD7B65220C847900C2BA84"
-               BuildableName = "azure_storage_ios.framework"
-               BlueprintName = "azure-storage-ios"
+               BuildableName = "AzureStorage.framework"
+               BlueprintName = "AzureStorage"
                ReferencedContainer = "container:azure-storage-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60FD7B65220C847900C2BA84"
-            BuildableName = "azure_storage_ios.framework"
-            BlueprintName = "azure-storage-ios"
+            BuildableName = "AzureStorage.framework"
+            BlueprintName = "AzureStorage"
             ReferencedContainer = "container:azure-storage-ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60FD7B65220C847900C2BA84"
-            BuildableName = "azure_storage_ios.framework"
-            BlueprintName = "azure-storage-ios"
+            BuildableName = "AzureStorage.framework"
+            BlueprintName = "AzureStorage"
             ReferencedContainer = "container:azure-storage-ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

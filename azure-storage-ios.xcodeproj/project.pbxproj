@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60FD7B75220C84FE00C2BA84 /* azure_storage_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FD7B75220C84FE00C2BA84 /* AzureStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B74220C84FE00C2BA84 /* AzureStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FD7BE4220C859400C2BA84 /* AZSBlobRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD7B77220C859400C2BA84 /* AZSBlobRequestFactory.h */; };
 		60FD7BE5220C859400C2BA84 /* AZSCloudBlockBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B78220C859400C2BA84 /* AZSCloudBlockBlob.m */; };
 		60FD7BE6220C859400C2BA84 /* AZSStorageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD7B79220C859400C2BA84 /* AZSStorageCommand.m */; };
@@ -121,9 +121,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60FD7B66220C847900C2BA84 /* azure_storage_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = azure_storage_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FD7B66220C847900C2BA84 /* AzureStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FD7B72220C84DE00C2BA84 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = azure_storage_ios.h; sourceTree = "<group>"; };
+		60FD7B74220C84FE00C2BA84 /* AzureStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzureStorage.h; sourceTree = "<group>"; };
 		60FD7B77220C859400C2BA84 /* AZSBlobRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSBlobRequestFactory.h; sourceTree = "<group>"; };
 		60FD7B78220C859400C2BA84 /* AZSCloudBlockBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSCloudBlockBlob.m; sourceTree = "<group>"; };
 		60FD7B79220C859400C2BA84 /* AZSStorageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSStorageCommand.m; sourceTree = "<group>"; };
@@ -260,7 +260,7 @@
 		60FD7B67220C847900C2BA84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60FD7B66220C847900C2BA84 /* azure_storage_ios.framework */,
+				60FD7B66220C847900C2BA84 /* AzureStorage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 		60FD7B71220C84DE00C2BA84 /* framework-info */ = {
 			isa = PBXGroup;
 			children = (
-				60FD7B74220C84FE00C2BA84 /* azure_storage_ios.h */,
+				60FD7B74220C84FE00C2BA84 /* AzureStorage.h */,
 				60FD7B72220C84DE00C2BA84 /* Info.plist */,
 			);
 			path = "framework-info";
@@ -436,7 +436,7 @@
 				60FD7C0C220C859500C2BA84 /* AZSServiceProperties.h in Headers */,
 				60FD7BE9220C859400C2BA84 /* AZSCloudBlobClient.h in Headers */,
 				60FD7C0E220C859500C2BA84 /* AZSULLRange.h in Headers */,
-				60FD7B75220C84FE00C2BA84 /* azure_storage_ios.h in Headers */,
+				60FD7B75220C84FE00C2BA84 /* AzureStorage.h in Headers */,
 				60FD7BFC220C859500C2BA84 /* AZSSharedAccessSignatureHelper.h in Headers */,
 				60FD7C4B220C859500C2BA84 /* AZSRequestResult.h in Headers */,
 				60FD7C2A220C859500C2BA84 /* AZSCloudBlockBlob.h in Headers */,
@@ -479,9 +479,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60FD7B65220C847900C2BA84 /* azure-storage-ios */ = {
+		60FD7B65220C847900C2BA84 /* AzureStorage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60FD7B6E220C847900C2BA84 /* Build configuration list for PBXNativeTarget "azure-storage-ios" */;
+			buildConfigurationList = 60FD7B6E220C847900C2BA84 /* Build configuration list for PBXNativeTarget "AzureStorage" */;
 			buildPhases = (
 				60FD7B61220C847900C2BA84 /* Headers */,
 				60FD7B62220C847900C2BA84 /* Sources */,
@@ -492,9 +492,9 @@
 			);
 			dependencies = (
 			);
-			name = "azure-storage-ios";
+			name = AzureStorage;
 			productName = "azure-storage-ios";
-			productReference = 60FD7B66220C847900C2BA84 /* azure_storage_ios.framework */;
+			productReference = 60FD7B66220C847900C2BA84 /* AzureStorage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -524,7 +524,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60FD7B65220C847900C2BA84 /* azure-storage-ios */,
+				60FD7B65220C847900C2BA84 /* AzureStorage */,
 			);
 		};
 /* End PBXProject section */
@@ -762,7 +762,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "framwork.azure-storage-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = framwork.AzureStorage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -793,7 +793,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "framwork.azure-storage-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = framwork.AzureStorage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -817,7 +817,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60FD7B6E220C847900C2BA84 /* Build configuration list for PBXNativeTarget "azure-storage-ios" */ = {
+		60FD7B6E220C847900C2BA84 /* Build configuration list for PBXNativeTarget "AzureStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60FD7B6F220C847900C2BA84 /* Debug */,

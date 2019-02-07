@@ -1,6 +1,6 @@
 //
-//  azure_storage_ios.h
-//  azure-storage-ios
+//  AzureStorage.h
+//  AzureStorage
 //
 //  Created by Jelle Alten on 07/02/2019.
 //  Copyright © 2019 framework. All rights reserved.
